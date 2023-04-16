@@ -20,6 +20,7 @@ function getSumOfDigits(n) {
     for (i = 0; i < nStr.length; i++) {
       sum += Number(nStr[i]);
     }
+    nStr = String(sum)
   }
 
   return sum
